@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riski - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Riski</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Riski</span></h1>
+                    <p class="hero-subtitle">Front End Developer & UI/UX Designer</p>
+                    <p class="hero-description">I create beautiful and functional digital experiences that make a difference. Passionate about modern web technologies and innovative solutions.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="social-preview">
+                        <a href="https://github.com/Riskihekabuzha" class="social-icon" data-tooltip="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="www.linkedin.com/in/muhammad-khairul-riski-al-muntaqim-422417283" class="social-icon" data-tooltip="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/hekabuzha_/" class="social-icon" data-tooltip="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Flip Card Photo -->
+                <div class="hero-image">
+                    <div class="flip-card" id="flipCard">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="profile-img front-img">
+                                    <img src="foto1.jpg" alt="Riski Profile" class="profile-photo">
+                                </div>
+                                <div class="card-overlay">
+                                    <p>Click to flip</p>
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <div class="profile-img back-img">
+                                    <img src="foto2.jpg" alt="Riski Profile" class="profile-photo">
+                                </div>
+                                <div class="card-overlay">
+                                    <p>Click to flip back</p>
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-icon" style="--delay: 0s" data-tooltip="React">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 1s" data-tooltip="JavaScript">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 2s" data-tooltip="Node.js">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="floating-icon" style="--delay: 3s" data-tooltip="Python">
+                            <i class="fab fa-python"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span>Scroll Down</span>
+        </div>
+        
+        <!-- Animated Background -->
+        <div class="bg-animation">
+            <div class="bg-circle"></div>
+            <div class="bg-circle"></div>
+            <div class="bg-circle"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Hello! I'm Riski</h3>
+                        <p>A passionate developer with over 3 years of experience in creating digital solutions. I specialize in modern web technologies and love turning complex problems into simple, beautiful designs.</p>
+                    </div>
+                    <div class="about-details">
+                        <p>My journey in web development started with curiosity and has evolved into a passion for creating meaningful digital experiences. I believe in writing clean, efficient code and staying up-to-date with the latest technologies.</p>
+                        <p>When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or sharing knowledge with the developer community.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="stat-number" data-target="50">0</div>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="stat-number" data-target="3">0</div>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="stat-number" data-target="25">0</div>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-coffee"></i>
+                            </div>
+                            <div class="stat-number" data-target="100">0</div>
+                            <p>Cups of Coffee</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-container">
+                        <div class="about-img"></div>
+                        <div class="img-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section id="tools" class="skills">
+        <div class="container">
+            <h2 class="section-title">Tools & Technologies</h2>
+            <div class="skills-container">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="88%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-server"></i>
+                            <h3>Backend Development</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="78%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">MongoDB</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Tools & Others</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Git</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">VSCode</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="95%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-figma"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">Figma</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <div class="skill-info">
+                                    <span class="skill-name">AWS</span>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-width="65%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Project Plan To Be Built</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th"></i>
+                    <span>All</span>
+                </button>
+                <button class="filter-btn" data-filter="web">
+                    <i class="fas fa-globe"></i>
+                    <span>Web App</span>
+                </button>
+                <button class="filter-btn" data-filter="mobile">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Mobile</span>
+                </button>
+                <button class="filter-btn" data-filter="design">
+                    <i class="fas fa-paint-brush"></i>
+                    <span>Design</span>
+                </button>
+            </div>
+            <div class="projects-grid">
+    <div class="project-card" data-category="web">
+        <div class="project-image">
+            <div class="project-overlay">
+                <div class="project-links">
+                    <a href="#" class="project-link" title="Live Demo">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link" title="Source Code">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-category">Web Application</div>
+            <h3>E-Commerce Platform</h3>
+            <p>Platform e-commerce lengkap dengan sistem pembayaran, manajemen produk, dan dashboard admin yang responsive.</p>
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card" data-category="web">
+        <div class="project-image">
+            <div class="project-overlay">
+                <div class="project-links">
+                    <a href="#" class="project-link" title="Live Demo">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link" title="Source Code">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-category">Web Application</div>
+            <h3>Task Management System</h3>
+            <p>Aplikasi manajemen tugas dengan fitur kolaborasi tim, real-time updates, dan tracking progress.</p>
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>MongoDB</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card" data-category="web">
+        <div class="project-image">
+            <div class="project-overlay">
+                <div class="project-links">
+                    <a href="#" class="project-link" title="Live Demo">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link" title="Source Code">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-category">Web Application</div>
+            <h3>Weather Dashboard</h3>
+            <p>Dashboard cuaca interaktif dengan prediksi 7 hari, peta interaktif, dan notifikasi cuaca ekstrem.</p>
+            <div class="project-tech">
+                <span>JavaScript</span>
+                <span>Weather API</span>
+                <span>Chart.js</span>
+                <span>CSS3</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card" data-category="mobile">
+        <div class="project-image">
+            <div class="project-overlay">
+                <div class="project-links">
+                    <a href="#" class="project-link" title="Live Demo">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link" title="Source Code">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-category">Mobile App</div>
+            <h3>Fitness Tracker App</h3>
+            <p>Aplikasi tracking fitness dengan monitoring aktivitas, kalori, dan progress workout harian.</p>
+            <div class="project-tech">
+                <span>React Native</span>
+                <span>Firebase</span>
+                <span>Health Kit</span>
+                <span>Redux</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card" data-category="mobile">
+        <div class="project-image">
+            <div class="project-overlay">
+                <div class="project-links">
+                    <a href="#" class="project-link" title="Live Demo">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link" title="Source Code">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-category">Mobile App</div>
+            <h3>Food Delivery App</h3>
+            <p>Aplikasi delivery makanan dengan tracking real-time, payment gateway, dan rating system.</p>
+            <div class="project-tech">
+                <span>Flutter</span>
+                <span>Dart</span>
+                <span>Firebase</span>
+                <span>Google Maps</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="project-card" data-category="design">
+        <div class="project-image">
+            <div class="project-overlay">
+                <div class="project-links">
+                    <a href="#" class="project-link" title="View Design">
+                        <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="#" class="project-link" title="Figma File">
+                        <i class="fab fa-figma"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-content">
+            <div class="project-category">UI/UX Design</div>
+            <h3>Banking App Design</h3>
+            <p>Desain aplikasi banking modern dengan fokus pada user experience dan keamanan transaksi.</p>
+            <div class="project-tech">
+                <span>Figma</span>
+                <span>UI/UX</span>
+                <span>Prototyping</span>
+                <span>Design System</span>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title">Certificates & Achievements</h2>
+            <div class="certificates-intro">
+                <p>Here are my professional certifications from CODEPOLITAN that showcase my commitment to continuous learning and skill development in web development.</p>
+            </div>
+            <div class="certificates-grid">
+    <div class="certificate-card">
+        <div class="certificate-header">
+            <div class="certificate-icon">
+                <i class="fab fa-js-square"></i>
+            </div>
+            <div class="certificate-badge">
+                <i class="fas fa-award"></i>
+            </div>
+        </div>
+        <div class="certificate-content">
+            <h3>jQuery Dasar</h3>
+            <p class="certificate-issuer">CODEPOLITAN</p>
+            <p class="certificate-date">
+                <i class="fas fa-calendar"></i>
+                Issued: 29 Mei 2025
+            </p>
+            <p class="certificate-description">Menguasai library jQuery untuk manipulasi DOM, event handling, animasi, dan AJAX untuk pengembangan web yang interaktif.</p>
+            <div class="certificate-actions">
+                <button class="btn-certificate" data-certificate="jquery-dasar">
+                    <i class="fas fa-eye"></i>
+                    View Certificate
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="certificate-card">
+        <div class="certificate-header">
+            <div class="certificate-icon">
+                <i class="fab fa-html5"></i>
+            </div>
+            <div class="certificate-badge">
+                <i class="fas fa-medal"></i>
+            </div>
+        </div>
+        <div class="certificate-content">
+            <h3>Dasar-dasar HTML dan CSS</h3>
+            <p class="certificate-issuer">CODEPOLITAN</p>
+            <p class="certificate-date">
+                <i class="fas fa-calendar"></i>
+                Issued: 29 Mei 2025
+
+            </p>
+            <p class="certificate-description">Memahami fundamental HTML dan CSS untuk membangun struktur dan styling website yang responsive dan modern.</p>
+            <div class="certificate-actions">
+                <button class="btn-certificate" data-certificate="html-css-dasar">
+                    <i class="fas fa-eye"></i>
+                    View Certificate
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="certificate-card">
+        <div class="certificate-header">
+            <div class="certificate-icon">
+                <i class="fab fa-js"></i>
+            </div>
+            <div class="certificate-badge">
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+        <div class="certificate-content">
+            <h3>JavaScript Dasar</h3>
+            <p class="certificate-issuer">CODEPOLITAN</p>
+            <p class="certificate-date">
+                <i class="fas fa-calendar"></i>
+                Issued: 3 Juni 2025
+            </p>
+            <p class="certificate-description">Menguasai fundamental JavaScript termasuk variabel, function, object, array, dan konsep programming dasar.</p>
+            <div class="certificate-actions">
+                <button class="btn-certificate" data-certificate="js-dasar">
+                    <i class="fas fa-eye"></i>
+                    View Certificate
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="certificate-card">
+        <div class="certificate-header">
+            <div class="certificate-icon">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="certificate-badge">
+                <i class="fas fa-trophy"></i>
+            </div>
+        </div>
+        <div class="certificate-content">
+            <h3>JavaScript Async</h3>
+            <p class="certificate-issuer">CODEPOLITAN</p>
+            <p class="certificate-date">
+                <i class="fas fa-calendar"></i>
+                Issued: 29 Mei 2025
+            </p>
+            <p class="certificate-description">Menguasai konsep asynchronous programming dalam JavaScript termasuk Promise, async/await, dan callback handling.</p>
+            <div class="certificate-actions">
+                <button class="btn-certificate" data-certificate="js-async">
+                    <i class="fas fa-eye"></i>
+                    View Certificate
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3>Let's work together</h3>
+                        <p>I'm always interested in new opportunities and exciting projects. Feel free to reach out if you'd like to collaborate or just want to say hello!</p>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <span>riski.riski@students.utdi.ac.id</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <span>+62 812-6674-7670 </span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <span>Yogyakarta, Indonesia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Riskihekabuzha" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/muhammad-khairul-riski-al-muntaqim-422417283/" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://www.instagram.com/hekabuzha_/" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder=" " required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder=" " rows="5" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Riski. All rights reserved.</p>
+                    <p>Made with <i class="fas fa-heart"></i> and lots of coffee</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#certificates">Certificates</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div class="certificate-modal" id="certificateModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Certificate Details</h3>
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="certificate-preview">
+                    <div class="certificate-image">
+                        <i class="fas fa-certificate"></i>
+                        <p>Certificate Preview</p>
+                    </div>
+                    <div class="certificate-details">
+                        <h4 id="modalCertificateName">Certificate Name</h4>
+                        <p id="modalCertificateIssuer">Issuer</p>
+                        <p id="modalCertificateDate">Issue Date</p>
+                        <div class="modal-actions">
+                            <button class="btn btn-primary" id="viewCertificateBtn">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Certificate
+                            </button>
+                            <button class="btn btn-secondary" onclick="closeModal()">
+                                <i class="fas fa-times"></i>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
