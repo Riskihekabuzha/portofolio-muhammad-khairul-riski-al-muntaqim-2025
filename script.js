@@ -292,25 +292,25 @@ const certificateData = {
   "jquery-dasar": {
     name: "jQuery Dasar",
     issuer: "Code Politan",
-    date: "April 2024",
+    date: " 29 Mei 2025",
     link: "https://www.codepolitan.com/c/4DZBVYK/",
   },
   "html-css-dasar": {
     name: "Dasar-dasar HTML dan CSS",
     issuer: "Code Politan",
-    date: "March 2024",
+    date: "29 Mei 2025",
     link: "https://www.codepolitan.com/c/QGTMBRY/",
   },
   "js-dasar": {
     name: "JavaScript Dasar",
     issuer: "Code Politan",
-    date: "February 2024",
+    date: "3 Juni 2025",
     link: "https://www.codepolitan.com/c/ZBITQ05/",
   },
   "js-async": {
     name: "JavaScript Async",
     issuer: "Code Politan",
-    date: "January 2024",
+    date: "29 Mei 2025",
     link: "https://www.codepolitan.com/c/PZ783CB/",
   },
 }
